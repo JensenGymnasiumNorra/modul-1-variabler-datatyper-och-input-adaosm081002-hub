@@ -5,3 +5,5 @@ Välkomna sedan användaren till programmet.
 Exempel på utskrift, det inom () ska ändras om variablerna ändras:
 Hej (Hampus), välkommen till programmet!
 """
+namn= input("namn: ")
+print(f"Hej {namn}, välkommen till programet!")

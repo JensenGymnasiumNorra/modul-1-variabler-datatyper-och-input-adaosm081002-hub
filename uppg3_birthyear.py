@@ -6,3 +6,5 @@ Exempel på utskrift, det inom () ska ändras om variablerna ändras:
 Du är (16) år gammal.
 
 """
+ålder="16"
+print(f"Du är {ålder} år gammal")

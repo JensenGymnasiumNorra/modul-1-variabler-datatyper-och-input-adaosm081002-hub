@@ -6,4 +6,7 @@ Exempel på utskrift, det inom () ska ändras om variablerna ändras:
 (Hampus) gillar att (kolla på film) och (spela kortspel)
 """
 
-
+namn="Adam"
+intressen="kolla film"
+intressen2="spela fottboll"
+print(f"{namn} gillar att {intressen} och {intressen2}") 
