@@ -12,3 +12,9 @@ Exempel på utskrift, det inom () ska ändras om variablerna ändras:
 Välkommen till mitt program (Oskar). Du och (Hampus) är (53) år tillsammans.
 
 """
+namn1=input("namn:")
+namn2=input("namn:")
+ålder1=16
+ålder2= 17
+addera=ålder1 + ålder2
+print(f"Välkommen till mitt program {namn1}. Du och {namn2} är {addera} år tillsammans.")

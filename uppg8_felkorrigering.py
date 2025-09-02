@@ -11,16 +11,16 @@ name = "Gruber"
 print(f"{name} hits Goblin for 15 points of damage.")
 # Fel: 
 print("Goblin has 40 healthpoints remaining.")
-# Fel: 
-print("The Goblin tries to hit {nam}.")
-# Fel: 
-print("It connects!"
-# Fel: 
-print("{name} takes 12 points of damage.")
+# Fel: felet är "nam", den skulle vara name och finns inget f
+print(f"The Goblin tries to hit {name}.")
+# Fel: paranteset måste vara också på slutet
+print("It connects!")
+# Fel: det finns inget f. 
+print(f"{name} takes 12 points of damage.")
 # Fel: 
 print(f"{name} looks tired.")
-# Fel: 
-    print("{nam} decides to drink a health potion."
+# Fel: finns ingen f och det står "nam" istället för name , och det fanns bara en parantes
+print(f"{name} decides to drink a health potion.")
 # Fel: 
 print(f"{name} is looking fresh. Ready to fight!")
 # Fel: 
